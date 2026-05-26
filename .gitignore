@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TensorFlow / training artifacts
+*.h5
+*.keras
+*.ckpt
+*.pb
+checkpoints/
+logs/
+runs/
+tensorboard/
+
+# CIFAR-10 raw data
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+data/
