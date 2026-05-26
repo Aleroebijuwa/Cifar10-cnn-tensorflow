@@ -16,7 +16,7 @@ model = keras.Sequential([
     layers.BatchNormalization(),
     layers.MaxPooling2D((2, 2)),
 
-    # Third convolutional block (MISSING PART)
+    # Third convolutional block
     layers.Conv2D(128, (3, 3), activation='relu', padding='same'),
     layers.BatchNormalization(),
     layers.MaxPooling2D((2, 2)),
