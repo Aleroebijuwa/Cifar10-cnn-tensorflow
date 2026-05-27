@@ -34,6 +34,11 @@ logs/
 runs/
 tensorboard/
 
+# Track the exported SavedModel deliverable
+!saved_model/
+!saved_model/**
+!saved_model/**/*.pb
+
 # CIFAR-10 raw data
 cifar-10-batches-py/
 cifar-10-python.tar.gz

@@ -1,4 +1,5 @@
 import os
+import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
@@ -41,6 +42,9 @@ print(f"Test Accuracy: {test_acc:.4f}")
 os.makedirs("models", exist_ok=True)
 model.save("models/cifar10_model.keras")
 
+os.makedirs("results", exist_ok=True)
+np.save("results/history.npy", history.history)
+
 
 plt.figure(figsize=(12, 4))
 
@@ -61,5 +65,5 @@ plt.legend()
 plt.title('Accuracy Over Time')
 
 plt.tight_layout()
-plt.savefig("training_history.png")
+plt.savefig("results/training_history.png", dpi=300)
 plt.show()

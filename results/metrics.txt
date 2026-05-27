@@ -1,0 +1,26 @@
+CIFAR-10 CNN - Final Metrics
+========================================
+
+Test Accuracy: 0.7274
+Test Loss:     0.7896
+Precision:     0.7451
+Recall:        0.7274
+F1 Score:      0.7297
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    airplane       0.75      0.77      0.76      1000
+  automobile       0.82      0.89      0.85      1000
+        bird       0.53      0.75      0.62      1000
+         cat       0.51      0.52      0.51      1000
+        deer       0.82      0.52      0.64      1000
+         dog       0.61      0.70      0.65      1000
+        frog       0.84      0.77      0.80      1000
+       horse       0.79      0.79      0.79      1000
+        ship       0.92      0.78      0.84      1000
+       truck       0.86      0.79      0.83      1000
+
+    accuracy                           0.73     10000
+   macro avg       0.75      0.73      0.73     10000
+weighted avg       0.75      0.73      0.73     10000

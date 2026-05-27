@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 x_test = x_test.astype("float32") / 255.0
 
 
-model = tf.keras.models.load_model("../models/cifar10_model.h5")
+model = tf.keras.models.load_model("models/cifar10_model.keras")
 
 
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=0)
