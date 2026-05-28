@@ -33,6 +33,7 @@ checkpoints/
 logs/
 runs/
 tensorboard/
+*.log
 
 # Track the exported SavedModel deliverable
 !saved_model/

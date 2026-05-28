@@ -10,7 +10,7 @@ from tensorflow import keras
 print(f"Training data shape: {x_train.shape}")
 print(f"Training labels shape: {y_train.shape}")
 print(f"Test data shape: {x_test.shape}")
-print(f"Test labels shape: {x_test.shape}")
+print(f"Test labels shape: {y_test.shape}")
 
 
 x_train = x_train.astype('float32') / 255.0
