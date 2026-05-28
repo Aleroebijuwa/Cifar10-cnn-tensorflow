@@ -37,7 +37,7 @@ followed by a global-average-pooling classifier head (~307K parameters).
 - **GlobalAveragePooling instead of Flatten.** A `Flatten → Dense` head on a
   4×4×128 map adds hundreds of thousands of parameters and overfits easily.
   GAP collapses each feature map to a single value, cutting parameters and
-  acting as a structural regulariser — the single biggest architectural win
+  acting as a structural regulariser the single biggest architectural win
   over the original design.
 - **Filter progression 32 → 64 → 128.** Spatial resolution halves at each pool,
   so channel depth doubles to preserve representational capacity.
